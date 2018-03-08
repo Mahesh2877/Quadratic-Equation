@@ -3,7 +3,7 @@ class Quadratic
   {
     int a,b,c;
     public: x1,x2;
-            void input()
+       void input()
       {
         cin>>x>>y>>z;
         a=x;
@@ -16,11 +16,11 @@ class Quadratic
           x2 = (-b + sqrt((b.b) - (4.a.c)))/(2.a.c)
         }  
        void print()
-			 	{
-			 		cout<<"The Solutions to the above Quadratic Equation are:"<<endl;
-					cout<<x1<<" and "<<x2<<endl;
-				}
-			}
+	{
+	   cout<<"The Solutions to the above Quadratic Equation are:"<<endl;
+	   cout<<x1<<" and "<<x2<<endl;
+	}
+   }
 int main()
 {
   Quadratic obj;

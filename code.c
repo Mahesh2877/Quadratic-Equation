@@ -3,12 +3,9 @@ class Quadratic
   {
     int a,b,c;
     public: x1,x2;
-       void input()
+       void Quadratic()
       {
-        cin>>x>>y>>z;
-        a=x;
-        b=y;
-        c=z;
+        cin>>a>>b>>c;
       }
        void calculate()
        	{
@@ -23,9 +20,8 @@ class Quadratic
    }
 int main()
 {
-  Quadratic obj;
   Cout<<"Enter the values of a, b and c"<<endl;
-	obj.input();
+	Quadratic obj;
 	obj.calculate();
 	obj.print();
 	return 0;
